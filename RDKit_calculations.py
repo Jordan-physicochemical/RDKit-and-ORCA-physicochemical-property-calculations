@@ -1,8 +1,13 @@
-#!/usr/bin/env python3
-
-## Sources for rdkit collab, which this code is based off
+# This script calculates many physicochemical properties for compounds input as a SMILES list.
+# Python version: 3.12.12
+# RDKit version: 2025.3.3
+# Date: 2025-10-14
+# Author: Jordan Campbell
+# Adapted from google collab and github resources:
 # https://colab.research.google.com/github/schwallergroup/ai4chem_course/blob/main/notebooks/01%20-%20Basics/01d_rdkit_basics.ipynb#scrollTo=4v2cbSCiRl4q
 # https://github.com/schwallergroup/ai4chem_course/blob/main/notebooks/01%20-%20Basics/01d_rdkit_basics.ipynb
+
+#!/usr/bin/env python3
 
 # Install rdkit
 !pip install rdkit
