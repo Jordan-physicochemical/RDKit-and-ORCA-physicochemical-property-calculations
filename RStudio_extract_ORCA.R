@@ -1,4 +1,6 @@
 # ORCA output file parser extracts quantum chemistry properties from multiple ORCA .out file. 
+# RStudio version: 2025.05.1+513
+# ORCA version: 6.1
 # Date: 2025-10-16
 # Author: Jordan Campbell
 
