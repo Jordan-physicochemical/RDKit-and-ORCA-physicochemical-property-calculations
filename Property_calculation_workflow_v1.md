@@ -8,10 +8,10 @@ Entries with missing or invalid SMILES were excluded.
 A comprehensive set of RDKit molecular descriptors was computed using rdkit.Chem.Descriptors and MolecularDescriptorCalculator. 
 All callable descriptor functions were included except setupAUTOCorrDescriptors and PropertyFunctor, which were excluded due to incompatibility with batch calculation. 
 Descriptor values were calculated for each molecule and exported together with compound names and SMILES identifiers as a CSV table for downstream analysis. 
-RDKit workflow shown in "rdkit_calculations.py".
+Python (3.12.12) script for RDKit (2025.3.3) workflow is shown in "rdkit_calculations.py".
 
 ## ORCA Calculations
-Two computational approaches were employed for ORCA calculations, depending on molecular complexity. 
+Two computational approaches were employed for ORCA (6.1) calculations, depending on molecular complexity. 
 ### Method 1 (Direct optimization, n=213): 
 Geometry optimizations and single-point energy calculations were performed using the RI-B2PLYP double-hybrid density functional with Grimme's D3BJ dispersion correction and the def2-TZVP basis set. 
 The RIJCOSX approximation was used for computational efficiency with the def2/J auxiliary basis for Coulomb fitting and def2-TZVP/C for correlation fitting. 
