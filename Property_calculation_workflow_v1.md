@@ -1,5 +1,5 @@
 # Workflow used to calculate physicochemical properties of 217 single-site monomeric fungicides with known modes of action. 
-#### 384 Properties were calculated using RDKit, and another 11 quantum properties were calculated using ORCA.
+#### 384 Properties were calculated using RDKit, and another 11 quantum properties were calculated using ORCA, for each of 217 fungicides.
 
 ## RDKit Calculations (version 2025.3.3)
 RDKit Molecular descriptors were calculated from SMILES codes using RDKit. 
